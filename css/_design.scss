@@ -1,0 +1,45 @@
+//===================design==========================//
+.design{
+    width: 100%;
+    background-image: url(../img/banner/jpg/banner3.jpg);
+    background-position:80% 20%;
+    background-size: 100%;
+    padding: 2rem 0 0rem 0;
+
+    h1{
+        @include heading; 
+    }
+    .inner{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .dtext{
+            width: 40%;
+
+            img{
+                width: 80%;
+                margin-bottom: 50px;
+            }
+            h2{
+                color: $mycolor2;
+                font-size: 1.2rem;
+                margin-bottom: 20px;
+                word-spacing: 5px;
+            }
+            p{
+                color: $mycolor2;
+                font-size: .7rem;
+                padding-right:70px;
+                
+            }
+        }
+        .image{
+            width: 60%;
+
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

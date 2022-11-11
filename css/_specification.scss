@@ -1,0 +1,113 @@
+
+//===================specification==========================//
+.specification{
+    width: 100%;
+    background-image: url(../img/banner/jpg/banner2.jpg);
+    background-position:80% 20%;
+    background-size: 100%;
+    padding: 2rem 0;
+
+    h1{
+        @include heading;
+    }
+
+    .inner{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+        .spimage{
+            width: 50%;
+
+            img{
+                width: 100%;
+            }
+        }
+        .details{
+            width: 40%;
+            
+            
+            
+            // background-color: red;
+            
+            .owl-dots .owl-dot.active span{
+                background-color: $mycolor1 !important;
+                width: 30px !important;
+                
+                  
+            }
+            .item{
+                background: transparent;
+                padding: 2rem;
+                border: none;
+                outline: none;
+                border-bottom-left-radius: 30px;
+                border-top-right-radius:30px;
+
+
+                h3{
+                    font-size: .8rem;
+                    color: $mycolor2;
+                    margin-bottom: 10px;
+                    
+                }
+                p{
+                    font-size: .7rem;
+                    margin-bottom: 10px;
+                    padding-left: 10px;
+                    color: $mycolor2;
+                    
+                    
+                    
+                    
+
+                    i{
+                        margin-right: 4px;
+                        color: $mycolor1;
+                    }
+
+                }
+                .left{
+                    margin-left: 20px;
+                    font-size: .7rem;
+                    
+                }
+                
+                
+            }
+            .color{
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+                .box{
+
+                    color: $mycolor2;
+                    text-align: center;
+                    cursor: pointer;
+                    
+
+                    img{
+                        width: 125px;
+                        transition: 0.5s linear;
+                        
+                    } 
+                    
+                    h5{
+                        font-size: .5rem;
+                        font-weight: 200;
+                        
+                        
+                    }
+                }
+                .box:hover img{
+                    transform: scale(1.2);
+
+                }
+               
+            }
+        }
+    }
+}

@@ -1,0 +1,229 @@
+//=================header======================//
+.header{
+    background-image: url(../img/banner/jpg/banner1.jpg);
+    background-position: 20% 40%;
+    background-size: 100%;
+    width: 100%;
+    // height: 100vh;
+    
+     
+
+
+    nav{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 50px;
+        background:linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(224, 1, 57, 0.425) 100%);
+        border-bottom: 0.5px solid $mycolor1;
+        position: fixed;
+        z-index: 1000;
+        
+        
+        
+        
+
+
+        .logo{
+            width: 50px;
+            cursor: pointer;
+
+
+            img{
+                width: 100%;
+                
+            }
+        }
+
+        ul{
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+          
+        
+
+         li{
+            padding-right: 20px;
+            list-style: none;
+            cursor: pointer;
+
+             a{
+                 text-decoration: none;
+                 font-size: .6rem;
+                 text-transform: uppercase;
+                 font-weight:600;
+                 color:$mycolor2;
+                 transition:0.5s ease-in-out;
+                }
+
+                a:hover{
+                    color: #01ace0;
+                    font-weight:800;
+                    font-size: .7rem;
+                }
+                a:hover,.active{
+                    color: #01ace0;
+                }
+            }
+        }
+        .menubar{
+            background: none;
+            border: none;
+            outline: none;
+            color: $mycolor2;
+            display: none;
+        }
+        
+    }
+    .hero{
+        // background-color: red;
+        padding-top: 4.5rem;
+        
+
+        .inner{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+    
+    
+            .herotext{
+                width: 35%;
+                
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: flex-start;
+                margin-top: -8%;
+                position: relative;
+                .logo1{
+                    width: 40%;
+                    margin-bottom: 30px;
+                }
+                .logo2{
+                    width: 110%;
+                    margin-left: -10px;
+                    
+                }
+    
+                
+                p{
+                    color: $mycolor2;
+                    font-size: .8rem;
+                    font-weight: 600;
+                    position: absolute;
+                    top: 90%;
+                
+                }
+                .btn{
+                    
+                    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+                    width: 140px;
+                    padding: 10px;
+                    background: transparent;
+                    border: 2px solid $mycolor2;
+                    outline: none;
+                    box-shadow:0px 0px 8px 2px $mycolor1;
+                    font-size: .7rem;
+                    color: $mycolor1;
+                    position: absolute;
+                    top: 100%;
+                    left: 5%;
+                    cursor: pointer;
+                    transition: 0.5s linear;
+                }
+                .btn:hover{
+                     background: $mycolor1;
+                     border: 2px solid $mycolor1;
+                     color: $mycolor2;
+                }
+                //=======popup=======//
+                .popup{
+                    width: 300px;
+                    height: 350x;
+                    background-color: rgba(224, 1, 57, 0.425);
+                    border-radius: 6px;
+                    position: absolute;
+                    top: 50%;
+                    left: 140%;
+                    transform: translate(-50%,-50%) scale(0);
+                    text-align: center;
+                    padding: 20px 20px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    visibility:hidden;
+                    transition: transform 0.5s, top 0.5s;
+    
+                    h3{
+                        font-size: .8rem;
+                        font: 500;
+                        color: $mycolor2;
+                        margin-bottom: 10px;
+                    }
+                    p{
+                    font-size: .6rem;
+                    margin-bottom: 20px;
+                    color:$mycolor2;
+                    }
+                    a{
+                        text-decoration: none;
+                        margin-left: 10px;
+                        color: $mycolor2;
+                        font-weight: 700;
+                    }
+                    input{
+                        width: 100%;
+                        padding: 12px 15px;
+                        outline: none;
+                        border-radius: 5px;
+                        margin-bottom: 20px;
+                        /* border: 1px solid #fff; */
+                        border: none;
+                        background:$mycolor1;
+                        color: $mycolor2;
+                        
+                    }
+                    button{
+                        margin: 0 auto;
+                        width: 120px;
+                        height: 40px;
+                        font-weight: 600;
+                        border-radius: 5px;
+                        border: none;
+                        cursor: pointer;
+                        color: $mycolor1;
+                        background: $mycolor2;
+                        margin-bottom: 10px; 
+                        transition: all 0.3s linear;
+                         
+                    }
+                    button:hover{
+                        color: $mycolor2;
+                        font-weight: 800;
+                        background: $mycolor1;
+                    }
+                    
+                    
+                }
+                .open-popup{
+                    visibility: visible;
+                    top: 50%;
+                    transform: translate(-50%,-50%) scale(1);
+                }
+            }
+    
+            .image{
+                width:65%;
+                
+    
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    
+}

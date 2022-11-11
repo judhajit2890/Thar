@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thar</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.green.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    
+
+</head>
+<body>
+    <!----------------header start------------------->
+    <section class="header" id="header">
+        <nav>
+            <a href="#header" class="logo"><img src="./img/Logo/logo1.png"></a>
+            <ul id="navbar">
+                <li><a href="#header" class="active">Home</a></li>
+                <li><a href="#speci">Specification</a></li>
+                <li><a href="#design">Seafty</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#review">Review</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="fa-solid fa-bars menubar"></button>
+
+        </nav>
+        <!-------------------hero start--------------->
+        <div class="hero">
+            <div class="inner">
+                <div class="herotext">
+                    <img  class="logo1" src="./img/Logo/logo2.png" alt="">
+                    <img  class="logo2" src="./img/Logo/caption.png" alt="">
+                    <p>For the few who Know the Difference</p>
+                    <!------------popup start----->
+                    <button class="btn" type="submit" onclick="openPopup()">Book Drive</button>
+                    <div class="popup" id="popup">
+                        <h3>Fill Details</h3>
+                        <input type="name" placeholder="Your name">
+                        <input type="email" placeholder="Your email Id">
+                        <input type="password" placeholder="Password">
+                        <p>Create An account><a href="#">Sign up</a></p>
+                        <button type="submit" onclick="closePopup()">Sign in</button>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="./img/back/png/hero.png" alt="">
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+    <!----------------header end------------------->
+
+    <!----------------Specification start------------------->
+    <section class="specification" id="speci">
+        <h1>Specification</h1>
+        <div class="inner">
+            <div class="spimage">
+                <img src="./img/back/png/engin2.png" alt="">
+            </div>
+            <div class="details">
+                <div class="one owl-carousel owl-theme">
+                    <div class="item">
+                        <h3><strong>Engine Type:</strong></h3>
+                        <p><i class="fa-solid fa-check"></i>Petrol</p>
+                        <p><i class="fa-solid fa-check"></i>Diesel</p>
+                        <h3><strong>Transmission:</strong> </h3>
+                        <p>Automatic & Manual</p>
+                    </div>
+                    <div class="item">
+                        <h3><strong>Key Features:</strong></h3> 
+                        <p><i class="fa-solid fa-check"></i>HVAC, Touchscreen, DRL, Alloys</p>
+                        <p><i class="fa-solid fa-check"></i>4WD, BLD & R18 A/T Tyres</p>
+                        <p><i class="fa-solid fa-check"></i>Driver Information System</p>
+                        <p><i class="fa-solid fa-check"></i>ESP, Roll Cage, 2 Airbags, ABS</p>
+
+                    </div>
+                    <div class="item">
+                        <h3><strong>Top Options:</strong></h3> 
+                        <p><i class="fa-solid fa-check"></i>Convertible Soft Top</p>
+                        <p class="left">(With Diesel MT & AT,                    </p>
+                        <p class="left">Petrol AT)</p>
+                        <p><i class="fa-solid fa-check"></i>Hard Top</p>
+                    </div>
+                    <div class="item color">
+                        <div class="box">
+                            <img src="./img/color/AquaMarine.png" alt="">
+                            <h5>AquaMarine</h5>
+                        </div>
+                        
+                        <div class="box">
+                            <img src="./img/color/DeepGrey.png" alt="">
+                            <h5>DeepGrey</h5>
+                        </div>
+                       
+                        <div class="box">
+                            <img src="./img/color/RedRage.png" alt="">
+                            <h5>RedRage</h5>
+                        </div>
+                        <div class="box">
+                            <img src="./img/color/NapoliBlack.png" alt="">
+                            <h5>NapoliBlack</h5>
+                        </div>
+                        
+
+                    </div>
+                    
+                </div>
+                <!-- <ul>
+                    <li><button>Engine & Transmission</button></li>
+                    <li><button>Key Features</button></li>
+                    <li><button>Top Options</button></li>
+                </ul>
+
+                <div class="details">
+                    <h4>Petrol & Diesel</h4>
+                    <h5>Automatic & Diesel</h4>
+
+                </div> -->
+            </div>
+        </div>
+
+    </section>
+    <!----------------Specification end------------------->
+
+
+    <!------------------Design start---------------------->
+    <section class="design" id="design">
+        <h1>Design</h1>
+        <div class="inner">
+        <div class="dtext">
+            <img src="./img/Logo/logo4.png" alt="">
+            <h2>The Icon is India’s Safest Off-Roader</h2>
+            <p>Rated 4-Stars in adult & child safety by Global NCAP. 
+               With ESP, roll cage, ABS & Airbags, Thar has all the 
+               safety gear you need to explore the impossible!</p>
+        </div>
+        <div class="image">
+            <img src="./img/back/png/body.png" alt="">
+        </div>
+        </div>
+
+    </section>
+    <!------------------Design end---------------------->
+
+    <!------------------gallery start---------------------->
+    <section class="gallery" id="gallery">
+        <h1>Gallery</h1>
+        <div class="inner">
+            <div class="two owl-carousel owl-theme">
+                <div class="item">
+                    <img src="./img/gallery/1.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="./img/gallery/2.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="./img/gallery/3.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="./img/gallery/4.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="./img/gallery/5.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="./img/gallery/6.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="./img/gallery/7.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="./img/gallery/8.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="./img/gallery/9.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="./img/gallery/10.jpg" alt="">
+                </div>
+                
+            </div>
+            <!-- <div class="carousel">
+                <div class="carousel-item">
+                    <img src="./img/gallery/6.png" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/gallery/2.png" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/gallery/3.jpg" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/gallery/4.jpg" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/gallery/5.jpg" alt="">
+                </div>
+            </div> -->
+        </div>
+        <h2><a href="https://www.youtube.com/watch?v=J5BMlYd9YzA" target="_blank">Watch Videos</a></h2>
+
+    </section>
+
+
+    <!------------------gallery end---------------------->
+
+
+
+    <!------------------review start---------------------->
+    <section class="review" id="review">
+        <h1>Reviews</h1>
+        <div class="inner">
+            <div class="box">
+                <div class="image  img1"> </div>
+                <h2>Subhodeep</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                <h3>10 Feb 2022</h3>
+            </div>
+            <div class="box">
+                <div class="image img2"></div>
+                <h2>Adi</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                <h3>29 Oct 2022</h3>
+            </div>
+            <div class="box">
+                <div class="image img3"></div>
+                <h2>Subham</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                <h3>18 Jan 2022</h3>
+            </div>
+            <div class="box">
+                <div class="image img4"></div>
+                <h2>Deep</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                <h3>29 Oct 2022</h3>
+            </div>
+            <div class="box">
+                <div class="image img5"></div>
+                <h2>Gurprit</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                <h3>14 Oct 2021</h3>
+            </div>
+            <div class="box">
+                <div class="image img6"></div>
+                <h2>Dev</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                <h3>17 may 2022</h3>
+            </div>
+        </div>
+
+    </section>
+    <!------------------review end---------------------->
+
+
+    <!------------------contact start---------------------->
+    <section class="contact" id="contact">
+        <h1>Contact</h1>
+        <div class="inner">
+           <div class="image">
+              <img src="./img/gallery/4.jpg" alt="">
+           </div>
+           <div class="cform">
+             <h1>READY TO GO?</h1>
+             <form action="#" onsubmit="return validation();">
+                 <input type="name" placeholder="Your Name" id="user">
+                 <span id="uname"></span>
+                 <input type="email" placeholder="Your Email Id" id="email">
+                 <span id="mail"></span>
+                 <input class="btn" type="Submit">
+             </form>
+           </div>
+        </div>
+        <div class="text">
+            <div class="tbox">
+                <h5><strong>Address:</strong></h5>
+                <p>RAJARHAT, ROAD 67, KOLKATA</p>
+            </div>
+            <div class="tbox">
+                <h5><strong>Opening Hours:</strong></h5>
+                <p>8:30-19:30</p>
+            </div>
+            <div class="tbox">
+                <h5><strong>Phone:</strong></h5>
+                <p>+91-1234567890</p>
+            </div>
+            <div class="tbox">
+                <h5><strong>Email:</strong></h5>
+                <p>Thar4x4@gamil.com</p>
+            </div>
+            <div class="tbox">
+                <h5><strong>Follow Us:</strong></h5>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+
+    </section>
+    <!------------------contact end---------------------->
+
+
+
+
+
+
+
+
+
+
+    
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <script src="./js/script.js"></script>
+    
+</body>
+</html>
