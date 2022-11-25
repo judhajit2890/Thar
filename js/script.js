@@ -1,8 +1,13 @@
 //============scroll reveal======///
-ScrollReveal().reveal('.logo1',{ delay: 700, easing: 'ease-in',distance: '60px',origin: 'left'});
-ScrollReveal().reveal('.logo2',{ delay: 700, easing: 'ease-in',distance: '60px',origin: 'right'});
-ScrollReveal().reveal('.spimage',{ delay: 500, easing: 'ease-in',distance: '60px',origin: 'left'});
-ScrollReveal().reveal('.dtext',{ delay: 700, easing: 'ease-in',distance: '60px',origin: 'right'});
+// ScrollReveal().reveal('.logo1',{ delay: 700, easing: 'ease-in',distance: '60px',origin: 'left'});
+// ScrollReveal().reveal('.logo2',{ delay: 700, easing: 'ease-in',distance: '60px',origin: 'right'});
+// ScrollReveal().reveal('.spimage',{ delay: 500, easing: 'ease-in',distance: '60px',origin: 'left'});
+// ScrollReveal().reveal('.dtext',{ delay: 700, easing: 'ease-in',distance: '60px',origin: 'right'});
+
+ScrollReveal().reveal('.logo1',{ delay: 700, easing: 'ease-in',distance: '60px',origin: 'bottom'});
+ScrollReveal().reveal('.logo2',{ delay: 700, easing: 'ease-in',distance: '60px',origin: 'top'});
+ScrollReveal().reveal('.spimage',{ delay: 500, easing: 'ease-in',distance: '80px',origin: 'bottom'});
+ScrollReveal().reveal('.dtext',{ delay: 700, easing: 'ease-in',distance: '100px',origin: 'bottom'});
 
 
 //=======popup========//
